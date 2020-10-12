@@ -29,6 +29,7 @@ const CountryPage: React.FC = () => {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(false)
 
+
   const countryFetch = useCallback(async () => {
     try {
       setLoading(true)
@@ -51,7 +52,7 @@ const CountryPage: React.FC = () => {
     return (
       <Main>
         <Back>
-          <Link to="/">
+          <Link to="/search_countries">
             <Arrow /> <span>Back</span>
           </Link>
         </Back>

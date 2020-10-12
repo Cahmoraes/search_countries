@@ -9,6 +9,7 @@ import Route from './Route'
 const Routes: React.FC = () => {
   return (
     <Switch>
+      <Route path="/" exact component={Feed} />
       <Route path="/search_countries/" exact component={Feed} />
       <Route path="/search_countries/country/:name" component={CountryPage} />
       <Route path="*" exact component={NotFound} />

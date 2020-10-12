@@ -11,7 +11,7 @@ interface CountryCardProps {
 const CountryCard: React.FC<CountryCardProps> = ({ country }) => {
   return (
     <Card>
-      <Link to={'/country/' + country.name.toLowerCase()}>
+      <Link to={'/search_countries/country/' + country.name.toLowerCase()}>
         <Flag>
           <img src={country.flag} alt={country.name} />
         </Flag>

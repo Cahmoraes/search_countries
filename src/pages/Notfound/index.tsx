@@ -16,7 +16,7 @@ const NotFound = () => {
         Home?
       </Paragraph>
       <Back>
-        <Link to="/">
+        <Link to="/search_countries">
           <Arrow /> <span>Back</span>
         </Link>
       </Back>

@@ -31,7 +31,7 @@ const CountryBorders: React.FC<CountryBorders> = ({ codes }) => {
     <>
       {borders.map(({ name }) => (
         <Button key={name}>
-          <Link to={`/country/${name.toLowerCase()}`}>
+          <Link to={`/search_countries/country/${name.toLowerCase()}`}>
             {name}
           </Link>
         </Button>
