@@ -9,13 +9,13 @@
 ## :rocket: Sobre
 
 ### Preview
-<img alt="Desktop" src="https://github.com/Cahmoraes/search_countries/blob/main/src/assets/examples/example.gif" />
+<img  align="center" alt="Desktop" src="https://github.com/Cahmoraes/search_countries/blob/main/src/assets/examples/example.gif" />
 
 ### :computer: Desktop 
-<img alt="Desktop" src="https://github.com/Cahmoraes/search_countries/blob/main/src/assets/examples/example-1.jpg" />
+<img  align="center" alt="Desktop" src="https://github.com/Cahmoraes/search_countries/blob/main/src/assets/examples/example-1.jpg" />
 
 ### :iphone: Mobile
-<img alt="Mobile" src="https://github.com/Cahmoraes/search_countries/blob/main/src/assets/examples/example-mobile.jpg" />
+<img   align="center" alt="Mobile" src="https://github.com/Cahmoraes/search_countries/blob/main/src/assets/examples/example-mobile.jpg" />
 
 
 ## :computer: Tecnologias utilizadas
