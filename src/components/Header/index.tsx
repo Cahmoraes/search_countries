@@ -18,7 +18,6 @@ const Header: React.FC = () => {
 
   useEffect(() => {
     if (storagedTheme) {
-      console.log(storagedTheme)
       setTheme(storagedTheme)
     }
   }, [setTheme, storagedTheme])
