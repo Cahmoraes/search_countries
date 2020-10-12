@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const Template = styled.header`
   background-color: ${(props) => props.theme.colors.primary};
   box-shadow: 0 0 1px 0px #858585;
+  @media screen and (max-width: 634px) {
+    max-width: 425px;
+    padding: 5px;
+  }
 `;
 
 export const Container = styled.div`
