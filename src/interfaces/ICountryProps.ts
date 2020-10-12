@@ -7,7 +7,7 @@ export default interface ICountryProps {
   borders: []
   nativeName: string
   subregion: string
-  topLevelDomain: number
+  topLevelDomain: string
   currencies: [
     {
       name: string

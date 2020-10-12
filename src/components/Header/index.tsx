@@ -43,7 +43,7 @@ const Header: React.FC = () => {
     <Template>
       <Container>
         <Title>
-          <Link to="">Where in the world?</Link>
+          <Link to="/search_countries">Where in the world?</Link>
         </Title>
         <Switch onClick={switchTheme}>
           <Moon />

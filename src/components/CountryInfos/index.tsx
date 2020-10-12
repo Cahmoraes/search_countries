@@ -27,7 +27,7 @@ const CountryInfos: React.FC<CountryInfosProps> = ({ data }) => {
         {data[0].population && (
           <Info>
             <InfoTitle>Population: </InfoTitle>
-            <InfoResponse>{data[0].population}</InfoResponse>
+            <InfoResponse>{data[0].population.toLocaleString('pt-BR', { style: 'decimal' })}</InfoResponse>
           </Info>
         )}
 

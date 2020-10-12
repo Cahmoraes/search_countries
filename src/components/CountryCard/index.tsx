@@ -20,7 +20,7 @@ const CountryCard: React.FC<CountryCardProps> = ({ country }) => {
           <div>
             <Data>
               <span className="data_title">Population: </span>
-              <span className="data_response">{country.population}</span>
+              <span className="data_response">{country.population.toLocaleString('pt-BR', { style: 'decimal' })}</span>
             </Data>
 
             <Data>
