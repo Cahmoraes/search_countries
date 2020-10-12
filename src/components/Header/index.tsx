@@ -6,11 +6,12 @@ import light from '../../styles/themes/light';
 import { Link } from 'react-router-dom';
 import { Template, Container, Title, Switch } from './styles';
 import { useTheme } from '../../hooks/theme'
+import IThemeProps from '../../interfaces/IThemeProps';
 
 const Header: React.FC = () => {
 
   const { setTheme, defaultTheme } = useTheme()
-  const [storagedTheme, setStoragedTheme] = useState(() => {
+  const [storagedTheme, setStoragedTheme] = useState<IThemeProps | null>(() => {
     const storaged = window.localStorage.getItem('@Countries:localStorage')
     if (storaged) return JSON.parse(storaged)
     else return null
