@@ -1,5 +1,5 @@
 import React, { SetStateAction, useCallback, ChangeEvent, MouseEvent } from 'react';
-import { IRegion } from '../../../interface/IRegion';
+import { IRegion } from '../../../interfaces/IRegion';
 
 import {
   RegionSelect,

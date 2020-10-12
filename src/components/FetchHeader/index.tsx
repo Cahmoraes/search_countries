@@ -3,7 +3,8 @@ import React from 'react'
 import Select from '../Form/Select/'
 import Search from '../Form/Search/'
 import { Header } from './styles'
-import { IRegion } from '../../interface/IRegion';
+import { IRegion } from '../../interfaces/IRegion';
+
 
 interface FetchHeaderProps {
   select: string
