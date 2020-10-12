@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/search_countries/static/js/main.02890ab5.chunk.js",
+    "main.js.map": "/search_countries/static/js/main.02890ab5.chunk.js.map",
+    "runtime-main.js": "/search_countries/static/js/runtime-main.570cb58d.js",
+    "runtime-main.js.map": "/search_countries/static/js/runtime-main.570cb58d.js.map",
+    "static/js/2.6b04b528.chunk.js": "/search_countries/static/js/2.6b04b528.chunk.js",
+    "static/js/2.6b04b528.chunk.js.map": "/search_countries/static/js/2.6b04b528.chunk.js.map",
+    "index.html": "/search_countries/index.html",
+    "precache-manifest.af6e85b15fa951f30b24626115823bd1.js": "/search_countries/precache-manifest.af6e85b15fa951f30b24626115823bd1.js",
+    "service-worker.js": "/search_countries/service-worker.js",
+    "static/js/2.6b04b528.chunk.js.LICENSE.txt": "/search_countries/static/js/2.6b04b528.chunk.js.LICENSE.txt",
+    "static/media/404.7d74678e.svg": "/search_countries/static/media/404.7d74678e.svg",
+    "static/media/arrow_left.f6f2a198.svg": "/search_countries/static/media/arrow_left.f6f2a198.svg",
+    "static/media/moon.943ce609.svg": "/search_countries/static/media/moon.943ce609.svg",
+    "static/media/search.9873f8db.svg": "/search_countries/static/media/search.9873f8db.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.570cb58d.js",
+    "static/js/2.6b04b528.chunk.js",
+    "static/js/main.02890ab5.chunk.js"
+  ]
+}
