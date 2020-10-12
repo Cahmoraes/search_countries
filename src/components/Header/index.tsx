@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 
 import { ReactComponent as Moon } from '../../assets/img/moon.svg';
 import dark from '../../styles/themes/dark';
@@ -10,6 +10,18 @@ import { useTheme } from '../../hooks/theme'
 const Header: React.FC = () => {
 
   const { setTheme, defaultTheme } = useTheme()
+  const [storagedTheme, setStoragedTheme] = useState(() => {
+    const storaged = window.localStorage.getItem('@Countries:localStorage')
+    if (storaged) return JSON.parse(storaged)
+    else return null
+  })
+
+  useEffect(() => {
+    if (storagedTheme) {
+      console.log(storagedTheme)
+      setTheme(storagedTheme)
+    }
+  }, [setTheme, storagedTheme])
 
   const capitalize = useCallback((text: string) => {
     return text[0].toLocaleUpperCase() + text.slice(1)
@@ -18,8 +30,12 @@ const Header: React.FC = () => {
   const switchTheme = useCallback(() => {
     if (defaultTheme.title === 'light') {
       setTheme(dark)
+      setStoragedTheme(dark)
+      window.localStorage.setItem('@Countries:localStorage', JSON.stringify(dark))
     } else {
       setTheme(light)
+      setStoragedTheme(light)
+      window.localStorage.setItem('@Countries:localStorage', JSON.stringify(light))
     }
   }, [setTheme, defaultTheme.title])
 
