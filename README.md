@@ -7,6 +7,10 @@
 ---
 
 ## :rocket: Sobre
+
+### Preview
+<img alt="Desktop" src="https://github.com/Cahmoraes/search_countries/blob/main/src/assets/examples/example.gif" />
+
 ### :computer: Desktop 
 <img alt="Desktop" src="https://github.com/Cahmoraes/search_countries/blob/main/src/assets/examples/example-1.jpg" />
 
